@@ -20,7 +20,7 @@ let rooms = {}; // Define rooms object to manage rooms
 async function main() {
   try {
     await mongoose.connect(
-      "mongodb+srv://upadhyagovinda01:pUdefeFOa8VncyhI@cluster0.pvj8eph.mongodb.net/attendanceApp"
+     
     );
     console.log("Connected to MongoDB");
   } catch (error) {
